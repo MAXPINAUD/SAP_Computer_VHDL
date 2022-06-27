@@ -1,0 +1,213 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/max
+Eprogram_counter
+Z0 w1656010653
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 217
+Z4 d/home/max/Documents/git/8-bit_CPU/simulation
+Z5 8/home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd
+Z6 F/home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd
+l0
+L10 1
+V1<?9<9S?[=`e>06Z2QLGH0
+!s100 24B]H5T=J7h=L:URUUZaT3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1656330744
+!i10b 1
+Z9 !s108 1656330744.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd|
+Z11 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+Z14 DEx4 work 15 program_counter 0 22 1<?9<9S?[=`e>06Z2QLGH0
+!i122 217
+l22
+L20 22
+V6D@I8OGZJI;Y>J9jjL[Xo0
+!s100 <E9PZC1Wm132bOQoln4CL3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eprogram_counter_tb
+Z15 w1656261040
+Z16 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R1
+R2
+R3
+!i122 216
+R4
+Z17 8/home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd
+Z18 F/home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd
+l0
+L7 1
+VLDUN^5F[fl>aY=cFo2:641
+!s100 j0IZlFHN`=ZZ8BPQfza<23
+R7
+32
+R8
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd|
+Z20 !s107 /home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R14
+R16
+R1
+R2
+R3
+DEx4 work 18 program_counter_tb 0 22 LDUN^5F[fl>aY=cFo2:641
+!i122 216
+l29
+L10 81
+Via^[0IEP``8^:Pih0c4UM3
+!s100 dG60_g<OSF6a`[[9RddRF3
+R7
+32
+R8
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Ereg
+Z21 w1656262605
+R1
+R2
+R3
+!i122 218
+R4
+Z22 8/home/max/Documents/git/8-bit_CPU/VHDL/register.vhd
+Z23 F/home/max/Documents/git/8-bit_CPU/VHDL/register.vhd
+l0
+L5 1
+VCNL:PnL`jGZRI22o:La7<2
+!s100 H<PYD`2T:I2`l;ZFia@gN1
+R7
+32
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/register.vhd|
+Z25 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/register.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z26 DEx4 work 3 reg 0 22 CNL:PnL`jGZRI22o:La7<2
+!i122 218
+l21
+L17 19
+VJjYlKh?BCjTCSJhgi_OO33
+!s100 0>J>>[LZ^Z@>n74G7CYHT1
+R7
+32
+R8
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13
+Ereg_tb
+Z27 w1656330910
+R16
+R1
+R2
+R3
+!i122 221
+R4
+Z28 8/home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd
+Z29 F/home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd
+l0
+L7 1
+V8?nB0ZVmfnZGG:5VT?@e61
+!s100 1_XVN=`4J_aLh6Rmgh_3T2
+R7
+32
+Z30 !s110 1656330913
+!i10b 1
+Z31 !s108 1656330913.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd|
+Z33 !s107 /home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R26
+R16
+R1
+R2
+R3
+Z34 DEx4 work 6 reg_tb 0 22 8?nB0ZVmfnZGG:5VT?@e61
+!i122 221
+l26
+Z35 L10 74
+V5hT^cIi041[2`F^XLZNG:0
+!s100 7Cc?_>MEkLMFY2k=kEzNj0
+R7
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R12
+R13
+Eregister_tb
+w1656261063
+R16
+R1
+R2
+R3
+!i122 80
+R4
+R28
+R29
+l0
+L7 1
+VlIlGL4^gjnP`k01AUjRea1
+!s100 ieN9`7;<<9UOZW35QO9R]1
+R7
+32
+!s110 1656261251
+!i10b 1
+!s108 1656261251.000000
+R32
+R33
+!i113 1
+R12
+R13
