@@ -55,7 +55,7 @@ end loop;
 r_control_sig <= (others=>'0');
 wait for 10 ns;
 --Send out message
-report "Test OK";
+report "Test Successful";
 stop;
 end process;
 

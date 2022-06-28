@@ -1,1 +1,28 @@
+# Compile of program_counter_tb.vhd was successful with warnings.
+# Compile of program_counter.vhd was successful.
+# Compile of register.vhd was successful.
 # Compile of register_tb.vhd was successful with warnings.
+# Compile of ALU.vhd failed with 5 errors.
+# Compile of ALU_tb.vhd failed with 4 errors.
+# 6 compiles, 2 failed with 9 errors.
+# Compile of program_counter_tb.vhd was successful with warnings.
+# Compile of program_counter.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of register_tb.vhd was successful with warnings.
+# Compile of ALU.vhd failed with 1 errors.
+# Compile of ALU_tb.vhd failed with 4 errors.
+# 6 compiles, 2 failed with 5 errors.
+# Compile of program_counter_tb.vhd was successful with warnings.
+# Compile of program_counter.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of register_tb.vhd was successful with warnings.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd failed with 4 errors.
+# 6 compiles, 1 failed with 4 errors.
+# Compile of program_counter_tb.vhd was successful with warnings.
+# Compile of program_counter.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of register_tb.vhd was successful with warnings.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd was successful with warnings.
+# 6 compiles, 0 failed with no errors.

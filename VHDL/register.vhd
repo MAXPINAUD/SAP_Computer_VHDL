@@ -9,8 +9,7 @@ generic(
 port(
   i_clk, i_load, i_RO, i_reset : in std_logic;
   i_data : in std_logic_vector(N-1 downto 0);
-  o_data : out std_logic_vector(N-1 downto 0);
-  o_data_ALU : out std_logic_vector(N-1 downto 0)
+  o_data : out std_logic_vector(N-1 downto 0)
 );
 end entity;
 
@@ -31,5 +30,4 @@ begin
   end process;
 
   o_data <= temp when i_RO = '1' else (others=>'Z');
-  o_data_ALU <= temp;
 end architecture;

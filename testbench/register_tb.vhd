@@ -18,7 +18,6 @@ signal r_load, r_RO, r_reset : std_logic:='0';
 signal r_i_data : std_logic_vector(REG_WIDTH-1 downto 0);
 --Output Signals
 signal r_o_data : std_logic_vector(REG_WIDTH-1 downto 0):=(others=>'0');
-signal r_o_data_ALU : std_logic_vector(REG_WIDTH-1 downto 0):=(others=>'0');
 --TestBench Signals
 signal r_control_sig : std_logic_vector(CTRL_SIG_CNT-1 downto 0):=(others=>'0');
 signal r_simulated_data : unsigned (REG_WIDTH-1 downto 0) := X"EF";
@@ -36,8 +35,7 @@ DUT : entity work.reg
     i_RO => r_RO,
     i_reset => r_reset,
     i_data => r_i_data,
-    o_data => r_o_data,
-    o_data_ALU => r_o_data_ALU
+    o_data => r_o_data
   );
 
 p_SEQUENCE : process
@@ -50,7 +48,7 @@ begin
   r_control_sig <= (others=>'0');
   wait for 10 ns;
   --Send out message
-  report "Test OK";
+  report "Test Successful";
   stop;
 end process;
 
@@ -61,7 +59,6 @@ end process;
     case r_control_sig is
       when "000" =>
         assert (r_o_data = "ZZZZZZZZ") report "Failure : 000 normal output malfunction" severity failure;
-        assert (r_o_data_ALU = X"00") report "Failure : 000 ALU output malfunction" severity failure;
         prev_content := (others=> '0');
       when "001" =>
         prev_content := r_simulated_data;
@@ -70,8 +67,8 @@ end process;
       when "011" =>
         wait for 4 ns;
         assert (r_o_data = r_i_data) report "Failure : 011 output data doesn't correspond to input data" severity failure;
-      when "100" | "110" | "111" =>
-        assert (r_o_data_ALU = X"00") report "Failure : RESET HIGH output not resetting" severity failure;
+      when "110" | "111" =>
+        assert (r_o_data = X"00") report "Failure : RESET HIGH output not resetting" severity failure;
       when others => null;
     end case;
   end process;
