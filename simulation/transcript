@@ -1,58 +1,4 @@
-# Compile of program_counter_tb.vhd was successful with warnings.
-# Compile of program_counter.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of register_tb.vhd was successful with warnings.
-# Compile of ALU.vhd was successful.
-# Compile of ALU_tb.vhd was successful with warnings.
-# Compile of MAR.vhd was successful.
-# Compile of MAR_tb.vhd was successful with warnings.
-# Compile of RAM.vhd failed with 2 errors.
-# Compile of RAM_tb.vhd failed with 11 errors.
-# 10 compiles, 2 failed with 13 errors.
-# Compile of program_counter_tb.vhd was successful with warnings.
-# Compile of program_counter.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of register_tb.vhd was successful with warnings.
-# Compile of ALU.vhd was successful.
-# Compile of ALU_tb.vhd was successful with warnings.
-# Compile of MAR.vhd was successful.
-# Compile of MAR_tb.vhd was successful with warnings.
-# Compile of RAM.vhd failed with 3 errors.
-# Compile of RAM_tb.vhd failed with 11 errors.
-# 10 compiles, 2 failed with 14 errors.
-# Compile of program_counter_tb.vhd was successful with warnings.
-# Compile of program_counter.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of register_tb.vhd was successful with warnings.
-# Compile of ALU.vhd was successful.
-# Compile of ALU_tb.vhd was successful with warnings.
-# Compile of MAR.vhd was successful.
-# Compile of MAR_tb.vhd was successful with warnings.
-# Compile of RAM.vhd was successful.
-# Compile of RAM_tb.vhd failed with 11 errors.
-# 10 compiles, 1 failed with 11 errors.
-# Compile of program_counter_tb.vhd was successful with warnings.
-# Compile of program_counter.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of register_tb.vhd was successful with warnings.
-# Compile of ALU.vhd was successful.
-# Compile of ALU_tb.vhd was successful with warnings.
-# Compile of MAR.vhd was successful.
-# Compile of MAR_tb.vhd was successful with warnings.
-# Compile of RAM.vhd was successful.
-# Compile of RAM_tb.vhd failed with 5 errors.
-# 10 compiles, 1 failed with 5 errors.
-# Compile of program_counter_tb.vhd was successful with warnings.
-# Compile of program_counter.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of register_tb.vhd was successful with warnings.
-# Compile of ALU.vhd was successful.
-# Compile of ALU_tb.vhd was successful with warnings.
-# Compile of MAR.vhd was successful.
-# Compile of MAR_tb.vhd was successful with warnings.
-# Compile of RAM.vhd was successful.
-# Compile of RAM_tb.vhd failed with 1 errors.
-# 10 compiles, 1 failed with 1 error.
+# Compile of control.vhd failed with 1 errors.
 # Compile of program_counter_tb.vhd was successful with warnings.
 # Compile of program_counter.vhd was successful.
 # Compile of register.vhd was successful.
@@ -63,4 +9,61 @@
 # Compile of MAR_tb.vhd was successful with warnings.
 # Compile of RAM.vhd was successful.
 # Compile of RAM_tb.vhd was successful with warnings.
-# 10 compiles, 0 failed with no errors.
+# Compile of inst_reg.vhd was successful.
+# Compile of inst_reg_tb.vhd was successful with warnings.
+# Compile of acc_reg_A.vhd was successful.
+# Compile of reg_B.vhd was successful.
+# Compile of reg_out.vhd was successful.
+# Compile of control.vhd failed with 31 errors.
+# 16 compiles, 1 failed with 31 errors.
+# Compile of program_counter_tb.vhd was successful with warnings.
+# Compile of program_counter.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of register_tb.vhd was successful with warnings.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd was successful with warnings.
+# Compile of MAR.vhd was successful.
+# Compile of MAR_tb.vhd was successful with warnings.
+# Compile of RAM.vhd was successful.
+# Compile of RAM_tb.vhd was successful with warnings.
+# Compile of inst_reg.vhd was successful.
+# Compile of inst_reg_tb.vhd was successful with warnings.
+# Compile of acc_reg_A.vhd was successful.
+# Compile of reg_B.vhd was successful.
+# Compile of reg_out.vhd was successful.
+# Compile of control.vhd failed with 17 errors.
+# 16 compiles, 1 failed with 17 errors.
+# Compile of program_counter_tb.vhd was successful with warnings.
+# Compile of program_counter.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of register_tb.vhd was successful with warnings.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd was successful with warnings.
+# Compile of MAR.vhd was successful.
+# Compile of MAR_tb.vhd was successful with warnings.
+# Compile of RAM.vhd was successful.
+# Compile of RAM_tb.vhd was successful with warnings.
+# Compile of inst_reg.vhd was successful.
+# Compile of inst_reg_tb.vhd was successful with warnings.
+# Compile of acc_reg_A.vhd was successful.
+# Compile of reg_B.vhd was successful.
+# Compile of reg_out.vhd was successful.
+# Compile of control.vhd failed with 1 errors.
+# 16 compiles, 1 failed with 1 error.
+# Compile of program_counter_tb.vhd was successful with warnings.
+# Compile of program_counter.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of register_tb.vhd was successful with warnings.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd was successful with warnings.
+# Compile of MAR.vhd was successful.
+# Compile of MAR_tb.vhd was successful with warnings.
+# Compile of RAM.vhd was successful.
+# Compile of RAM_tb.vhd was successful with warnings.
+# Compile of inst_reg.vhd was successful.
+# Compile of inst_reg_tb.vhd was successful with warnings.
+# Compile of acc_reg_A.vhd was successful.
+# Compile of reg_B.vhd was successful.
+# Compile of reg_out.vhd was successful.
+# Compile of control.vhd was successful.
+# 16 compiles, 0 failed with no errors.

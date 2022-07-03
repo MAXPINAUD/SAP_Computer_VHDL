@@ -1,4 +1,82 @@
-/home/max/Documents/git/8-bit_CPU/testbench/ALU_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/testbench/ALU_tb.vhd
+/home/max/Documents/git/8-bit_CPU/testbench/inst_reg_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/testbench/inst_reg_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package ENV
+** Warning: /home/max/Documents/git/8-bit_CPU/testbench/inst_reg_tb.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+-- Compiling entity inst_reg_tb
+-- Compiling architecture Behavioral of inst_reg_tb
+-- Loading entity inst_reg
+
+} {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/ALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture Behavioral of ALU
+
+} {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/inst_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/inst_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity inst_reg
+-- Compiling architecture Behavioral of inst_reg
+
+} {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/acc_reg_A.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/acc_reg_A.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity acc_reg_A
+-- Compiling architecture Behavioral of acc_reg_A
+
+} {} {}} /home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package ENV
+** Warning: /home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+-- Compiling entity reg_tb
+-- Compiling architecture Behavioral of reg_tb
+-- Loading entity reg
+
+} {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/register.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg
+-- Compiling architecture Behavioral of reg
+
+} {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/RAM.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/RAM.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RAM
+-- Compiling architecture Behavioral of RAM
+
+} {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/MAR.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/MAR.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MAR
+-- Compiling architecture Behavioral of MAR
+
+} {} {}} /home/max/Documents/git/8-bit_CPU/testbench/ALU_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/testbench/ALU_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -10,14 +88,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling architecture Behavioral of ALU_tb
 -- Loading entity ALU
 
-} {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/register.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/register.vhd
+} {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/reg_out.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/reg_out.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity reg
--- Compiling architecture Behavioral of reg
+-- Compiling entity reg_out
+-- Compiling architecture Behavioral of reg_out
 
 } {} {}} /home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -31,14 +109,27 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling architecture Behavioral of program_counter_tb
 -- Loading entity program_counter
 
-} {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/ALU.vhd
+} {} {}} /home/max/Documents/git/8-bit_CPU/testbench/RAM_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/testbench/RAM_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity ALU
--- Compiling architecture Behavioral of ALU
+-- Loading package ENV
+** Warning: /home/max/Documents/git/8-bit_CPU/testbench/RAM_tb.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+-- Compiling entity RAM_tb
+-- Compiling architecture Behavioral of RAM_tb
+-- Loading entity RAM
+** Warning: /home/max/Documents/git/8-bit_CPU/testbench/RAM_tb.vhd(74): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 8 is not equal to right length 4).
+
+} {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/reg_B.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/reg_B.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg_B
+-- Compiling architecture Behavioral of reg_B
 
 } {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -60,35 +151,5 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity MAR_tb
 -- Compiling architecture Behavioral of MAR_tb
 -- Loading entity MAR
-
-} {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/RAM.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/RAM.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity RAM
--- Compiling architecture Behavioral of RAM
-
-} {} {}} /home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package ENV
-** Warning: /home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
--- Compiling entity reg_tb
--- Compiling architecture Behavioral of reg_tb
--- Loading entity reg
-
-} {} {}} /home/max/Documents/git/8-bit_CPU/VHDL/MAR.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/max/Documents/git/8-bit_CPU/VHDL/MAR.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity MAR
--- Compiling architecture Behavioral of MAR
 
 } {} {}}

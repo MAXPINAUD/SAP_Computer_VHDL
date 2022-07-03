@@ -9,26 +9,26 @@ z2
 !i10f 100
 cModel Technology
 d/home/max
-Ealu
-Z0 w1656409745
+Eacc_reg_a
+Z0 w1656584600
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 507
+!i122 1101
 Z4 d/home/max/Documents/git/8-bit_CPU/simulation
-Z5 8/home/max/Documents/git/8-bit_CPU/VHDL/ALU.vhd
-Z6 F/home/max/Documents/git/8-bit_CPU/VHDL/ALU.vhd
+Z5 8/home/max/Documents/git/8-bit_CPU/VHDL/acc_reg_A.vhd
+Z6 F/home/max/Documents/git/8-bit_CPU/VHDL/acc_reg_A.vhd
 l0
 L5 1
-V`R_?^Sb_8<:UzOIzdO8dP0
-!s100 D=6Qhkm>Nd[`8@MZa_UXO2
+V^a^i?PB_cM53I^JbKn2X;0
+!s100 X`EAK3H[TDdA9M^LA?J]P1
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1656495353
+Z8 !s110 1656845922
 !i10b 1
-Z9 !s108 1656495353.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/ALU.vhd|
-Z11 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/ALU.vhd|
+Z9 !s108 1656845922.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/acc_reg_A.vhd|
+Z11 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/acc_reg_A.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
@@ -36,12 +36,12 @@ Abehavioral
 R1
 R2
 R3
-Z14 DEx4 work 3 alu 0 22 `R_?^Sb_8<:UzOIzdO8dP0
-!i122 507
-l18
-L14 19
-Ve3gWKN[i9OF@?znRFX0`h1
-!s100 GDd;W2OFbN9l1_[d:1UO01
+DEx4 work 9 acc_reg_a 0 22 ^a^i?PB_cM53I^JbKn2X;0
+!i122 1101
+l21
+L17 15
+VJ`k^`DGd4=8GmJTEGc7;Y3
+!s100 b`>ogcGF[3ScOSHHPQ[1]0
 R7
 32
 R8
@@ -52,61 +52,236 @@ R11
 !i113 1
 R12
 R13
-Ealu_tb
-Z15 w1656410246
-Z16 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Ealu
+Z14 w1656409745
 R1
 R2
 R3
-!i122 508
+!i122 1093
 R4
-Z17 8/home/max/Documents/git/8-bit_CPU/testbench/ALU_tb.vhd
-Z18 F/home/max/Documents/git/8-bit_CPU/testbench/ALU_tb.vhd
+Z15 8/home/max/Documents/git/8-bit_CPU/VHDL/ALU.vhd
+Z16 F/home/max/Documents/git/8-bit_CPU/VHDL/ALU.vhd
+l0
+L5 1
+V`R_?^Sb_8<:UzOIzdO8dP0
+!s100 D=6Qhkm>Nd[`8@MZa_UXO2
+R7
+32
+Z17 !s110 1656845921
+!i10b 1
+Z18 !s108 1656845921.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/ALU.vhd|
+Z20 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/ALU.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z21 DEx4 work 3 alu 0 22 `R_?^Sb_8<:UzOIzdO8dP0
+!i122 1093
+l18
+L14 19
+Ve3gWKN[i9OF@?znRFX0`h1
+!s100 GDd;W2OFbN9l1_[d:1UO01
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Ealu_tb
+Z22 w1656410246
+Z23 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R1
+R2
+R3
+!i122 1094
+R4
+Z24 8/home/max/Documents/git/8-bit_CPU/testbench/ALU_tb.vhd
+Z25 F/home/max/Documents/git/8-bit_CPU/testbench/ALU_tb.vhd
 l0
 L7 1
 VCCI7kXmIdiRgK3AI6QE_@3
 !s100 MRlH:D_7o1>X0I0jIl^im0
 R7
 32
-R8
+R17
 !i10b 1
-R9
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/ALU_tb.vhd|
-Z20 !s107 /home/max/Documents/git/8-bit_CPU/testbench/ALU_tb.vhd|
+R18
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/ALU_tb.vhd|
+Z27 !s107 /home/max/Documents/git/8-bit_CPU/testbench/ALU_tb.vhd|
 !i113 1
 R12
 R13
 Abehavioral
-R14
-R16
+R21
+R23
 R1
 R2
 R3
 DEx4 work 6 alu_tb 0 22 CCI7kXmIdiRgK3AI6QE_@3
-!i122 508
+!i122 1094
 l22
 L10 55
 VAS>I[:9m=zSP`da9k:9BV2
 !s100 03@?cnl8V6n6Y>Ol_z>Xm1
 R7
 32
+R17
+!i10b 1
+R18
+R26
+R27
+!i113 1
+R12
+R13
+Econtrol
+Z28 w1656845912
+R1
+R2
+R3
+!i122 1104
+R4
+Z29 8/home/max/Documents/git/8-bit_CPU/VHDL/control.vhd
+Z30 F/home/max/Documents/git/8-bit_CPU/VHDL/control.vhd
+l0
+L5 1
+V0IeU];;Ke=DhkEC_4P1SH2
+!s100 4h@2XhzJjWd`D2hF`V4VG1
+R7
+32
 R8
 !i10b 1
 R9
-R19
-R20
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/control.vhd|
+!s107 /home/max/Documents/git/8-bit_CPU/VHDL/control.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 7 control 0 22 0IeU];;Ke=DhkEC_4P1SH2
+!i122 1104
+l22
+L16 132
+V[e=Y`aTeiYNf@d8jkQl@93
+!s100 X^@4DmVnLdESLcL@jfNzz3
+R7
+32
+R8
+!i10b 1
+R9
+R31
+Z32 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/control.vhd|
+!i113 1
+R12
+R13
+Einst_reg
+Z33 w1656578216
+R1
+R2
+R3
+!i122 1099
+R4
+Z34 8/home/max/Documents/git/8-bit_CPU/VHDL/inst_reg.vhd
+Z35 F/home/max/Documents/git/8-bit_CPU/VHDL/inst_reg.vhd
+l0
+L5 1
+VkiZ0i]d^HJmkYd@n3E5Gl1
+!s100 W]=B[ChC8^dCeOn7;2:EY1
+R7
+32
+R8
+!i10b 1
+R9
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/inst_reg.vhd|
+Z37 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/inst_reg.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z38 DEx4 work 8 inst_reg 0 22 kiZ0i]d^HJmkYd@n3E5Gl1
+!i122 1099
+l18
+L14 20
+VmR9m?XzoOQ<WZIWSVRQhb2
+!s100 FOQK`cTHbIZ:=JC0ZUakA1
+R7
+32
+R8
+!i10b 1
+R9
+R36
+R37
+!i113 1
+R12
+R13
+Einst_reg_tb
+Z39 w1656583930
+R23
+R1
+R2
+R3
+!i122 1100
+R4
+Z40 8/home/max/Documents/git/8-bit_CPU/testbench/inst_reg_tb.vhd
+Z41 F/home/max/Documents/git/8-bit_CPU/testbench/inst_reg_tb.vhd
+l0
+L7 1
+VOh?=TWzK3G[1>]^JFH[nm1
+!s100 lCHgh4jcYe5IYi?]kKcAP2
+R7
+32
+R8
+!i10b 1
+R9
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/inst_reg_tb.vhd|
+Z43 !s107 /home/max/Documents/git/8-bit_CPU/testbench/inst_reg_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R38
+R23
+R1
+R2
+R3
+DEx4 work 11 inst_reg_tb 0 22 Oh?=TWzK3G[1>]^JFH[nm1
+!i122 1100
+l25
+L10 79
+VBNf[CCUDoO;o_g5aB0HMH2
+!s100 K6BneF[CYR5O21DC6g>SF2
+R7
+32
+R8
+!i10b 1
+R9
+R42
+R43
 !i113 1
 R12
 R13
 Emar
-Z21 w1656428625
+Z44 w1656428625
 R1
 R2
 R3
-!i122 509
+!i122 1095
 R4
-Z22 8/home/max/Documents/git/8-bit_CPU/VHDL/MAR.vhd
-Z23 F/home/max/Documents/git/8-bit_CPU/VHDL/MAR.vhd
+Z45 8/home/max/Documents/git/8-bit_CPU/VHDL/MAR.vhd
+Z46 F/home/max/Documents/git/8-bit_CPU/VHDL/MAR.vhd
 l0
 L5 1
 VfdgKjHgl_7Sn1^RGDGbcW1
@@ -115,9 +290,9 @@ R7
 32
 R8
 !i10b 1
-R9
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/MAR.vhd|
-Z25 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/MAR.vhd|
+R18
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/MAR.vhd|
+Z48 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/MAR.vhd|
 !i113 1
 R12
 R13
@@ -125,8 +300,8 @@ Abehavioral
 R1
 R2
 R3
-Z26 DEx4 work 3 mar 0 22 fdgKjHgl_7Sn1^RGDGbcW1
-!i122 509
+Z49 DEx4 work 3 mar 0 22 fdgKjHgl_7Sn1^RGDGbcW1
+!i122 1095
 l18
 L14 16
 VWPQC=aK^PZz2o0QF8kCKC1
@@ -135,22 +310,22 @@ R7
 32
 R8
 !i10b 1
-R9
-R24
-R25
+R18
+R47
+R48
 !i113 1
 R12
 R13
 Emar_tb
-Z27 w1656429123
-R16
+Z50 w1656429123
+R23
 R1
 R2
 R3
-!i122 510
+!i122 1096
 R4
-Z28 8/home/max/Documents/git/8-bit_CPU/testbench/MAR_tb.vhd
-Z29 F/home/max/Documents/git/8-bit_CPU/testbench/MAR_tb.vhd
+Z51 8/home/max/Documents/git/8-bit_CPU/testbench/MAR_tb.vhd
+Z52 F/home/max/Documents/git/8-bit_CPU/testbench/MAR_tb.vhd
 l0
 L7 1
 Vo>>MZ1;_YAHR@]0eZ;GUn1
@@ -160,19 +335,19 @@ R7
 R8
 !i10b 1
 R9
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/MAR_tb.vhd|
-Z31 !s107 /home/max/Documents/git/8-bit_CPU/testbench/MAR_tb.vhd|
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/MAR_tb.vhd|
+Z54 !s107 /home/max/Documents/git/8-bit_CPU/testbench/MAR_tb.vhd|
 !i113 1
 R12
 R13
 Abehavioral
-R26
-R16
+R49
+R23
 R1
 R2
 R3
 DEx4 work 6 mar_tb 0 22 o>>MZ1;_YAHR@]0eZ;GUn1
-!i122 510
+!i122 1096
 l23
 L10 52
 V1WZYeMk`lXRnnZ1UZY:5?3
@@ -182,31 +357,31 @@ R7
 R8
 !i10b 1
 R9
-R30
-R31
+R53
+R54
 !i113 1
 R12
 R13
 Eprogram_counter
-Z32 w1656355561
+Z55 w1656355561
 R1
 R2
 R3
-!i122 504
+!i122 1090
 R4
-Z33 8/home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd
-Z34 F/home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd
+Z56 8/home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd
+Z57 F/home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd
 l0
 L10 1
 V1<?9<9S?[=`e>06Z2QLGH0
 !s100 24B]H5T=J7h=L:URUUZaT3
 R7
 32
-Z35 !s110 1656495352
+R17
 !i10b 1
-Z36 !s108 1656495352.000000
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd|
-Z38 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd|
+R18
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd|
+Z59 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/program_counter.vhd|
 !i113 1
 R12
 R13
@@ -214,88 +389,88 @@ Abehavioral
 R1
 R2
 R3
-Z39 DEx4 work 15 program_counter 0 22 1<?9<9S?[=`e>06Z2QLGH0
-!i122 504
+Z60 DEx4 work 15 program_counter 0 22 1<?9<9S?[=`e>06Z2QLGH0
+!i122 1090
 l22
 L20 22
 V6D@I8OGZJI;Y>J9jjL[Xo0
 !s100 <E9PZC1Wm132bOQoln4CL3
 R7
 32
-R35
+R17
 !i10b 1
-R36
-R37
-R38
+R18
+R58
+R59
 !i113 1
 R12
 R13
 Eprogram_counter_tb
-Z40 w1656409369
-R16
+Z61 w1656409369
+R23
 R1
 R2
 R3
-!i122 503
+!i122 1089
 R4
-Z41 8/home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd
-Z42 F/home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd
+Z62 8/home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd
+Z63 F/home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd
 l0
 L7 1
 VLDUN^5F[fl>aY=cFo2:641
 !s100 j0IZlFHN`=ZZ8BPQfza<23
 R7
 32
-R35
+R17
 !i10b 1
-R36
-Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd|
-Z44 !s107 /home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd|
+R18
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd|
+Z65 !s107 /home/max/Documents/git/8-bit_CPU/testbench/program_counter_tb.vhd|
 !i113 1
 R12
 R13
 Abehavioral
-R39
-R16
+R60
+R23
 R1
 R2
 R3
 DEx4 work 18 program_counter_tb 0 22 LDUN^5F[fl>aY=cFo2:641
-!i122 503
+!i122 1089
 l29
 L10 81
 VA6;ifnJJ=J0@Vd1bBcDgU0
 !s100 CKH3WhONd169?9og:IO<[3
 R7
 32
-R35
+R17
 !i10b 1
-R36
-R43
-R44
+R18
+R64
+R65
 !i113 1
 R12
 R13
 Eram
-Z45 w1656493915
+Z66 w1656585589
 R1
 R2
 R3
-!i122 511
+!i122 1097
 R4
-Z46 8/home/max/Documents/git/8-bit_CPU/VHDL/RAM.vhd
-Z47 F/home/max/Documents/git/8-bit_CPU/VHDL/RAM.vhd
+Z67 8/home/max/Documents/git/8-bit_CPU/VHDL/RAM.vhd
+Z68 F/home/max/Documents/git/8-bit_CPU/VHDL/RAM.vhd
 l0
 L5 1
-VT?OHQBZ^b5;j0;:3ADTbh0
-!s100 7oJTaG6Y[J3gznVo3zhFI1
+V4zE3i3L=keK4S:SiZCdi`3
+!s100 [Z?YaZmEKl6[1Yca^=;]j0
 R7
 32
 R8
 !i10b 1
 R9
-Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/RAM.vhd|
-Z49 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/RAM.vhd|
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/RAM.vhd|
+Z70 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/RAM.vhd|
 !i113 1
 R12
 R13
@@ -303,32 +478,32 @@ Abehavioral
 R1
 R2
 R3
-Z50 DEx4 work 3 ram 0 22 T?OHQBZ^b5;j0;:3ADTbh0
-!i122 511
-l22
-L19 13
-VlaSfj1SoGZ1YWd]TX<@CK3
-!s100 Ld0[jh3WG76647>OSNOVP2
+Z71 DEx4 work 3 ram 0 22 4zE3i3L=keK4S:SiZCdi`3
+!i122 1097
+l21
+L18 13
+V_GO9Vk_dSY7bdH32=5A<13
+!s100 okZNI3RzX4<Q6a`NT8dB`1
 R7
 32
 R8
 !i10b 1
 R9
-R48
-R49
+R69
+R70
 !i113 1
 R12
 R13
 Eram_tb
-Z51 w1656495349
-R16
+Z72 w1656586019
+R23
 R1
 R2
 R3
-!i122 512
+!i122 1098
 R4
-Z52 8/home/max/Documents/git/8-bit_CPU/testbench/RAM_tb.vhd
-Z53 F/home/max/Documents/git/8-bit_CPU/testbench/RAM_tb.vhd
+Z73 8/home/max/Documents/git/8-bit_CPU/testbench/RAM_tb.vhd
+Z74 F/home/max/Documents/git/8-bit_CPU/testbench/RAM_tb.vhd
 l0
 L7 1
 VB?1g3a5cL18jl@6H8GUF=1
@@ -338,53 +513,53 @@ R7
 R8
 !i10b 1
 R9
-Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/RAM_tb.vhd|
-Z55 !s107 /home/max/Documents/git/8-bit_CPU/testbench/RAM_tb.vhd|
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/RAM_tb.vhd|
+Z76 !s107 /home/max/Documents/git/8-bit_CPU/testbench/RAM_tb.vhd|
 !i113 1
 R12
 R13
 Abehavioral
-R50
-R16
+R71
+R23
 R1
 R2
 R3
-Z56 DEx4 work 6 ram_tb 0 22 B?1g3a5cL18jl@6H8GUF=1
-!i122 512
-l26
-Z57 L10 67
-VHf5@Yz8gaCffALT4d>7Q40
-!s100 _>CCD8:om4@R]4G;DJ1193
+DEx4 work 6 ram_tb 0 22 B?1g3a5cL18jl@6H8GUF=1
+!i122 1098
+l23
+L10 68
+V<mZlCc>dggzXU?4LogEm^0
+!s100 UBgL8`hAhOM0=7To9Ck]31
 R7
 32
 R8
 !i10b 1
 R9
-R54
-R55
+R75
+R76
 !i113 1
 R12
 R13
 Ereg
-Z58 w1656424409
+Z77 w1656424409
 R1
 R2
 R3
-!i122 505
+!i122 1091
 R4
-Z59 8/home/max/Documents/git/8-bit_CPU/VHDL/register.vhd
-Z60 F/home/max/Documents/git/8-bit_CPU/VHDL/register.vhd
+Z78 8/home/max/Documents/git/8-bit_CPU/VHDL/register.vhd
+Z79 F/home/max/Documents/git/8-bit_CPU/VHDL/register.vhd
 l0
 L5 1
 VO^YBYG<lRaAIk4R:4XU9a0
 !s100 zYmofcH^g;MSl0VYE]K4A1
 R7
 32
-R8
+R17
 !i10b 1
-R36
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/register.vhd|
-Z62 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/register.vhd|
+R18
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/register.vhd|
+Z81 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/register.vhd|
 !i113 1
 R12
 R13
@@ -392,78 +567,164 @@ Abehavioral
 R1
 R2
 R3
-Z63 DEx4 work 3 reg 0 22 O^YBYG<lRaAIk4R:4XU9a0
-!i122 505
+Z82 DEx4 work 3 reg 0 22 O^YBYG<lRaAIk4R:4XU9a0
+!i122 1091
 l20
 L16 18
 Vb__glYk@[FPGhIX<IJh9l3
 !s100 dD@dAoJH`>jZ6CX^IW5_a2
 R7
 32
+R17
+!i10b 1
+R18
+R80
+R81
+!i113 1
+R12
+R13
+Ereg_b
+Z83 w1656574922
+R1
+R2
+R3
+!i122 1102
+R4
+Z84 8/home/max/Documents/git/8-bit_CPU/VHDL/reg_B.vhd
+Z85 F/home/max/Documents/git/8-bit_CPU/VHDL/reg_B.vhd
+l0
+L5 1
+Vz9gePVIifJg5=M>]Vf_S72
+!s100 `cbn6JXa;?NVb84m^lDKN3
+R7
+32
 R8
 !i10b 1
-R36
-R61
-R62
+R9
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/reg_B.vhd|
+Z87 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/reg_B.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 5 reg_b 0 22 z9gePVIifJg5=M>]Vf_S72
+!i122 1102
+l17
+L16 10
+VWM6V^`b91X9FNP=iD116>2
+!s100 F7dfocc7>:EdF=[UcZn4<0
+R7
+32
+R8
+!i10b 1
+R9
+R86
+R87
+!i113 1
+R12
+R13
+Ereg_out
+Z88 w1656584502
+R1
+R2
+R3
+!i122 1103
+R4
+Z89 8/home/max/Documents/git/8-bit_CPU/VHDL/reg_out.vhd
+Z90 F/home/max/Documents/git/8-bit_CPU/VHDL/reg_out.vhd
+l0
+L5 1
+VM?;lz4>j;P0]bEQ[=0E7?1
+!s100 `W:P@XaCHL:FgO`D?62Qe2
+R7
+32
+R8
+!i10b 1
+R9
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/VHDL/reg_out.vhd|
+Z92 !s107 /home/max/Documents/git/8-bit_CPU/VHDL/reg_out.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 7 reg_out 0 22 M?;lz4>j;P0]bEQ[=0E7?1
+!i122 1103
+l16
+L14 12
+V9Q[9dB@10UR<AJj?bHG_B1
+!s100 :V^2l2?;jHf6>@@5D<:^<1
+R7
+32
+R8
+!i10b 1
+R9
+R91
+R92
 !i113 1
 R12
 R13
 Ereg_tb
-Z64 w1656424383
-R16
+Z93 w1656424383
+R23
 R1
 R2
 R3
-!i122 506
+!i122 1092
 R4
-Z65 8/home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd
-Z66 F/home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd
+Z94 8/home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd
+Z95 F/home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd
 l0
 L7 1
 V8?nB0ZVmfnZGG:5VT?@e61
 !s100 1_XVN=`4J_aLh6Rmgh_3T2
 R7
 32
-R8
+R17
 !i10b 1
-R9
-Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd|
-Z68 !s107 /home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd|
+R18
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd|
+Z97 !s107 /home/max/Documents/git/8-bit_CPU/testbench/register_tb.vhd|
 !i113 1
 R12
 R13
 Abehavioral
-R63
-R16
+R82
+R23
 R1
 R2
 R3
 DEx4 work 6 reg_tb 0 22 8?nB0ZVmfnZGG:5VT?@e61
-!i122 506
+!i122 1092
 l25
 L10 71
 V^41RiA<LfcE?aC^2XXd=P1
 !s100 TIemTUbJHYREXfUVm@7@>0
 R7
 32
-R8
+R17
 !i10b 1
-R9
-R67
-R68
+R18
+R96
+R97
 !i113 1
 R12
 R13
 Eregister_tb
 w1656261063
-R16
+R23
 R1
 R2
 R3
 !i122 80
 R4
-R65
-R66
+R94
+R95
 l0
 L7 1
 VlIlGL4^gjnP`k01AUjRea1
@@ -473,8 +734,8 @@ R7
 !s110 1656261251
 !i10b 1
 !s108 1656261251.000000
-R67
-R68
+R96
+R97
 !i113 1
 R12
 R13

@@ -17,11 +17,8 @@ constant ram_addr_w : integer := 4;
 --Inputs
 signal r_clk, r_OE, r_WE : std_logic:= '0';
 signal r_addr : std_logic_vector(ram_addr_w-1 downto 0):=(others=>'0');
-signal r_idata : std_logic_vector(bram_width-1 downto 0):=(others=>'0');
---Outputs
-signal r_odata : std_logic_vector(bram_width-1 downto 0):=(others=>'0');
---Testbench Signals
-
+--InOutputs
+signal r_iodata : std_logic_vector(bram_width-1 downto 0):=(others=>'0');
 
 begin
 
@@ -40,28 +37,32 @@ port map(
   i_OE => r_OE,
   i_WE => r_WE,
   i_addr => r_addr,
-  i_data => r_idata,
-  o_data => r_odata
+  io_data => r_iodata
 );
-
 
   p_SEQUENCE : process
   begin
-  for j in 0 to 2 loop
-    if (j = 0) then
-      r_WE <= '1';
-      r_OE <= '0';
-    elsif (j = 2) then
-      r_WE <= '0';
-      r_OE <= '1';
-    end if;
-    for i in 0 to bram_depth-1 loop
-      r_idata <= std_logic_vector(to_unsigned(i, r_idata'length));
-      r_addr <= std_logic_vector(to_unsigned(i, r_addr'length));
-      wait for 20 ns;
+  --Runs two for loops on to set the data to the address register
+  --The other loop to read back the data that can then be checked
+    for j in 0 to 1 loop
+      if (j = 0) then
+        r_WE <= '1';
+        r_OE <= '0';
+      else
+        r_WE <= '0';
+        r_OE <= '1';
+      end if;
+      for i in 0 to bram_depth-1 loop
+        if (j = 0) then
+          r_iodata <= std_logic_vector(to_unsigned(i, r_iodata'length));
+        else
+          r_iodata <= (others=>'Z');
+        end if;
+        r_addr <= std_logic_vector(to_unsigned(i, r_addr'length));
+        wait for 20 ns;
+      end loop;
+    wait for 1 ns;
     end loop;
-  wait for 1 ns;
-  end loop;
   wait for 10 ns;
   report "Test Successful";
   stop;
@@ -70,7 +71,7 @@ port map(
   p_CHECKER : process(r_OE)
   begin
     if (r_OE = '1' and falling_edge(r_clk)) then
-      assert (r_odata = r_addr) report "Failure of the RAM block" severity failure;
+      assert (r_iodata = r_addr) report "Failure of the RAM block" severity failure;
     end if;
   end process;
 end architecture;

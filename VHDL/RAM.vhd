@@ -11,8 +11,7 @@ generic(
 port(
   i_clk, i_OE, i_WE : in std_logic;
   i_addr : in std_logic_vector(ADDR_WIDTH-1 downto 0);
-  i_data : in std_logic_vector(RAM_WIDTH-1 downto 0);
-  o_data : out std_logic_vector(RAM_WIDTH-1 downto 0)
+  io_data : inout std_logic_vector(RAM_WIDTH-1 downto 0)
 );
 end entity;
 
@@ -23,9 +22,9 @@ begin
 process(i_clk)
 begin
   if(rising_edge(i_clk) and i_WE = '1') then
-    ram(to_integer(unsigned(i_addr))) <= i_data;
+    ram(to_integer(unsigned(i_addr))) <= io_data;
   end if;
 end process;
 --Output tri-state buffer
-o_data <= ram(to_integer(unsigned(i_addr))) when i_OE = '1' else (others=>'Z');
+io_data <= ram(to_integer(unsigned(i_addr))) when i_OE = '1' else (others=>'Z');
 end Behavioral;
